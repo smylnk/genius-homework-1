@@ -1,0 +1,135 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
+  }
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+  }
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2');
+  }
+:root {
+    --color-light: #2B7FFF;
+    --color-dark: #011C44;
+    --color-white: #FFFFFF;
+    --color-black: black;
+
+}
+/* Base */
+body {
+    color: var(--color-dark);
+    margin: 0;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;   
+   }
+address {
+    font-style: normal;
+}
+ul {
+    list-style-type: none;
+}
+/* section-title */
+.accent-title {
+    color: var(--color-light);
+}
+.section-title {
+    color: var(--color-dark);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74.05px;
+    font-family: 'Play', sans-serif;
+}
+/* header-nav */
+.header-nav {
+    color: var(--color-dark);
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 21.09px;
+}
+.header-nav:hover {
+    color: var(--color-light);
+    font-weight: 700;
+}
+/* main-section */
+.main-title {
+    color: var(--color-light);
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 114px;
+    font-family: 'Play', sans-serif;
+}
+.main-text {
+    color: var(--color-dark);
+    font-size: 18px;
+    line-height: 21.09px;
+}
+.main-item {
+    color: var(--color-dark);
+    font-size: 12px;
+    line-height: 18px;
+}
+/* buttom */
+.buttom {
+    /* padding: 16px, 32px; */
+    background-color: var(--color-light);
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.09px;
+    border: 2px smooth var(--color-light);
+    border-radius: 32px;
+}
+/* HERE STOP!!!!!!! */
+/* turning-section */
+.turning-text {
+    color: var(--color-dark);
+    font-size: 22px;
+    line-height: 38px;
+}
+span {
+    font-weight: 700;
+}
+/* advantages-section */
+.advantages-text {
+    color: var(--color-black);
+    font-size: 18px;
+    line-height: 24px;
+}
+/* procedures-section */
+.procedures-text {
+    color: var(--color-white);
+    font-size: 22px;
+    line-height: 26px;
+}
+/* Footer */
+.footer-nav {
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 16px;
+    line-height: 18.75px;
+}
+.address-link {
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 16px;
+    line-height: 18.75px;
+}
+.adress-copyright {
+    color: var(--color-white);
+    font-style: 13px;
+    line-height: 18.75px;
+}
